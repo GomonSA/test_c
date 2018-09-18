@@ -2,24 +2,26 @@
 
 int main()
 {
-  int num1;
-  int num2;
-  int sumnum;
-
+  int myint;
   char mychar;
 
-  num1 = 23;
-  num2 = 26;
+  float myfloat;
 
-  printf("Hello World\n");
-  printf("Value of k = %d\n", num1);
-  printf("Value of to vars are: %d and %d\n", num1, num2);
-  sumnum = num1 + num2;
-  printf("Total is %d\n", sumnum);
+  long int mylongint;
+  double mydouble, mysumdb;
 
-  mychar = 'd';
-  printf("mychar is %c\n", mychar);
-  printf("mychar is %d\n", mychar);
+  myint = 25;
+  mychar = 'r';
+  myfloat = 23.6;
+  mydouble = 369;
+  mylongint = 385892823;
+
+  printf("myint and mychar are: %d and %c\n", myint, mychar);
+
+  mysumdb = 3.5 + mydouble;
+
+  printf("mysumdb = %0.2f\n", mysumdb);
+
 
 
   return 0;
